@@ -1,0 +1,133 @@
+<div class="main-div">
+  <div class="container-fluid user-info pb-2 pt-2 ps-2">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid ms-3" [src]="userInfo.imageurl">
+        <span class="ms-3" style="font-size: 1.1rem; font-weight: 400;">{{userInfo.name}}</span>
+      </div>
+      <div class="col-md-6 text-end">
+        <span (click)="openBar()" class=" icon me-4 search">
+          <svg viewBox="0 0 24 24" height="40" width="40" preserveAspectRatio="xMidYMid meet" class="" version="1.1"
+            x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve">
+            <path fill="currentColor"
+              d="M15.009,13.805h-0.636l-0.22-0.219c0.781-0.911,1.256-2.092,1.256-3.386 c0-2.876-2.332-5.207-5.207-5.207c-2.876,0-5.208,2.331-5.208,5.207s2.331,5.208,5.208,5.208c1.293,0,2.474-0.474,3.385-1.255 l0.221,0.22v0.635l4.004,3.999l1.194-1.195L15.009,13.805z M10.201,13.805c-1.991,0-3.605-1.614-3.605-3.605 s1.614-3.605,3.605-3.605s3.605,1.614,3.605,3.605S12.192,13.805,10.201,13.805z">
+            </path>
+          </svg>
+        </span>
+        <span class="icon dot-btn">
+          <svg viewBox="0 0 24 24" height="27" width="27" preserveAspectRatio="xMidYMid meet" class="" version="1.1"
+            x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve">
+            <path fill="currentColor"
+              d="M12,7c1.104,0,2-0.896,2-2c0-1.105-0.895-2-2-2c-1.104,0-2,0.894-2,2 C10,6.105,10.895,7,12,7z M12,9c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,9.895,13.104,9,12,9z M12,15 c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,15.894,13.104,15,12,15z">
+            </path>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid message-area">
+    <div class="row mb-2">
+      <div class="col-md-3 message-box ms-5 mt-5">
+        <p class="pt-2">Welcome to {{userInfo.name}}!!!
+        </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-4 message-box ms-5">
+        <p class="pt-2">{{userInfo.name}} 15 released on 17november
+        </p>
+      </div>
+    </div>
+    <div class="row mb-2" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-3 message-box ms-5 mt-5">
+        <p class="pt-2">Welcome to {{userInfo.name}}!!!</p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-4 message-box ms-5">
+        <p class="pt-2">{{userInfo.name}} 15 released on 17november...</p>
+      </div>
+    </div>
+    <div class="row mb-2" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-4 message-box ms-5">
+        <p class="pt-2">{{userInfo.name}} 15 released on 17november...</p>
+      </div>
+    </div>
+    <div class="row mb-2" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row mb-2" style="margin-left: 50% ;">
+      <div class="col-md-9 message-box1">
+        <p class="pt-2">We have got some new cool features </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-3 message-box ms-5 mt-5">
+        <p class="pt-2">Welcome to {{userInfo.name}}!!!</p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-4 message-box ms-5">
+        <p class="pt-2">{{userInfo.name}} 15 released on 17november...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid input-box pt-3 ps-2 pb-2">
+    <div class="row">
+      <div class="col-md-2">
+        <span class="icon smile pe-3">
+          <svg viewBox="0 0 24 24" width="30" height="30" class="ekdr8vow dhq51u3o">
+            <path fill="currentColor"
+              d="M9.153 11.603c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962zm-3.204 1.362c-.026-.307-.131 5.218 6.063 5.551 6.066-.25 6.066-5.551 6.066-5.551-6.078 1.416-12.129 0-12.129 0zm11.363 1.108s-.669 1.959-5.051 1.959c-3.505 0-5.388-1.164-5.607-1.959 0 0 5.912 1.055 10.658 0zM11.804 1.011C5.609 1.011.978 6.033.978 12.228s4.826 10.761 11.021 10.761S23.02 18.423 23.02 12.228c.001-6.195-5.021-11.217-11.216-11.217zM12 21.354c-5.273 0-9.381-3.886-9.381-9.159s3.942-9.548 9.215-9.548 9.548 4.275 9.548 9.548c-.001 5.272-4.109 9.159-9.382 9.159zm3.108-9.751c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962z">
+            </path>
+          </svg>
+        </span>
+        <span class="icon upload">
+          <svg viewBox="0 0 24 24" height="30" width="30" preserveAspectRatio="xMidYMid meet" class="" version="1.1"
+            x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve">
+            <path fill="currentColor"
+              d="M1.816,15.556v0.002c0,1.502,0.584,2.912,1.646,3.972s2.472,1.647,3.974,1.647 c1.501,0,2.91-0.584,3.972-1.645l9.547-9.548c0.769-0.768,1.147-1.767,1.058-2.817c-0.079-0.968-0.548-1.927-1.319-2.698 c-1.594-1.592-4.068-1.711-5.517-0.262l-7.916,7.915c-0.881,0.881-0.792,2.25,0.214,3.261c0.959,0.958,2.423,1.053,3.263,0.215 c0,0,3.817-3.818,5.511-5.512c0.28-0.28,0.267-0.722,0.053-0.936c-0.08-0.08-0.164-0.164-0.244-0.244 c-0.191-0.191-0.567-0.349-0.957,0.04c-1.699,1.699-5.506,5.506-5.506,5.506c-0.18,0.18-0.635,0.127-0.976-0.214 c-0.098-0.097-0.576-0.613-0.213-0.973l7.915-7.917c0.818-0.817,2.267-0.699,3.23,0.262c0.5,0.501,0.802,1.1,0.849,1.685 c0.051,0.573-0.156,1.111-0.589,1.543l-9.547,9.549c-0.756,0.757-1.761,1.171-2.829,1.171c-1.07,0-2.074-0.417-2.83-1.173 c-0.755-0.755-1.172-1.759-1.172-2.828l0,0c0-1.071,0.415-2.076,1.172-2.83c0,0,5.322-5.324,7.209-7.211 c0.157-0.157,0.264-0.579,0.028-0.814c-0.137-0.137-0.21-0.21-0.342-0.342c-0.2-0.2-0.553-0.263-0.834,0.018 c-1.895,1.895-7.205,7.207-7.205,7.207C2.4,12.645,1.816,14.056,1.816,15.556z">
+            </path>
+          </svg>
+        </span>
+      </div>
+      <div class="col-md-9">
+        <input class="user-input" type="text" placeholder="Type a message">
+      </div>
+      <div class="col-md-1 pt-2 pb-2">
+        <span class="icon mike">
+          <svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1"
+            x="0px" y="0px" enable-background="new 0 0 24 24" xml:space="preserve">
+            <path fill="currentColor"
+              d="M11.999,14.942c2.001,0,3.531-1.53,3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531 S8.469,2.35,8.469,4.35v7.061C8.469,13.412,9.999,14.942,11.999,14.942z M18.237,11.412c0,3.531-2.942,6.002-6.237,6.002 s-6.237-2.471-6.237-6.002H3.761c0,4.001,3.178,7.297,7.061,7.885v3.884h2.354v-3.884c3.884-0.588,7.061-3.884,7.061-7.885 L18.237,11.412z">
+            </path>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

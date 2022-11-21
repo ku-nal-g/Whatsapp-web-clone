@@ -1,0 +1,25 @@
+.top-div{
+  background-color: rgb(240, 242, 245);
+  height: 10vh;
+}
+span.icon {
+  color: rgb(84, 101, 111);
+  cursor: pointer;
+  margin-top: 5px;
+}
+button.search-btn{
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 242, 245) ;
+  border-radius: 12px;
+  padding: 0.4rem;
+}
+input[type="text"]{
+  border: none;
+  outline: none;
+  background-color: rgb(240, 242, 245) ;
+}
+span.back-btn{
+  color: #00a884;
+}

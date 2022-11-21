@@ -1,0 +1,48 @@
+.user-info {
+  background-color: rgb(240, 242, 245);
+  height: 10vh;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 45px;
+  cursor: pointer;
+}
+
+.message-area {
+  max-height: 80vh;
+  background-color: rgb(239, 224, 226);
+  overflow: auto;
+}
+
+span.icon {
+  color: rgb(84, 101, 111);
+  cursor: pointer;
+}
+
+.input-box {
+  background-color: rgb(240, 242, 245);
+  position: static;
+  width: 100%;
+  bottom: 0;
+  height: 10vh;
+}
+input.user-input{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+.message-box{
+  background-color: white;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.message-box1{
+  background-color: rgb(217, 253, 211);
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

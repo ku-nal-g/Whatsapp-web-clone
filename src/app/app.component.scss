@@ -1,0 +1,19 @@
+.main-div{
+  display: flex;
+  min-height: 100%;
+}
+.sidebar-div{
+  min-width: 35%;
+}
+.large-home-div{
+  min-width: 65%;
+}
+.small-home-div{
+  min-width: 35%;
+}
+.large-search-div{
+  min-width: 30%;
+}
+.small-search-div{
+  display: none;
+}

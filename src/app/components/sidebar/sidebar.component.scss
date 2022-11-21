@@ -1,0 +1,55 @@
+.profile{
+  background-color: rgb(240, 242, 245);
+  border-right: 1px solid #ddd;
+  height: 10vh;
+}
+.profile img{
+  border-radius: 50%;
+  width: 45px;
+  cursor: pointer;
+}
+span.icon{
+  color: rgb(84,101,111);
+  cursor: pointer;
+}
+.search-bar{
+  border-bottom: 1px solid #ddd;
+}
+button.search-btn{
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 242, 245) ;
+  border-radius: 12px;
+  padding: 0.4rem;
+}
+input[type="text"]{
+  border: none;
+  outline: none;
+  background-color: rgb(240, 242, 245) ;
+}
+span.back-btn{
+  color: #00a884;
+}
+img.users{
+  border-radius: 50%;
+  width: 50px;
+  cursor: pointer;
+}
+span.msg{
+  text-overflow: ellipsis;
+}
+.message-box{
+  max-height: 80vh;
+  overflow: auto;
+}
+.active{
+  background-color: rgb(240, 242, 245);
+}
+.bd-botttom{
+  border-bottom: 1px solid #ddd;
+}
+.message-list:hover{
+  cursor: pointer;
+  background-color: rgb(240, 242, 245);
+}
