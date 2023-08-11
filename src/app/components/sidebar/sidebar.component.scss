@@ -1,56 +1,68 @@
-.profile{
+.profile {
   background-color: rgb(240, 242, 245);
   border-right: 1px solid #ddd;
 }
-.profile img{
+
+.profile img {
   border-radius: 50%;
   width: 45px;
   height: 45px;
   object-fit: cover;
   cursor: pointer;
 }
-span.icon{
-  color: rgb(84,101,111);
+
+span.icon {
+  color: rgb(84, 101, 111);
   cursor: pointer;
 }
-.search-bar{
+
+.search-bar {
   border-bottom: 1px solid #ddd;
 }
-button.search-btn{
+
+button.search-btn {
   width: 100%;
   border: none;
   outline: none;
-  background-color: rgb(240, 242, 245) ;
+  background-color: rgb(240, 242, 245);
   border-radius: 12px;
   padding: 0.4rem;
 }
-input[type="text"]{
+
+input[type="text"] {
   border: none;
   outline: none;
-  background-color: rgb(240, 242, 245) ;
+  background-color: rgb(240, 242, 245);
 }
-span.back-btn{
+
+span.back-btn {
   color: #00a884;
 }
-img.users{
+
+img.users {
   border-radius: 50%;
   width: 50px;
   cursor: pointer;
 }
-span.msg{
+
+span.msg {
   text-overflow: ellipsis;
 }
-.message-box{
+
+.message-box {
   max-height: 80vh;
   overflow: auto;
 }
-.active{
+
+.active {
   background-color: rgb(240, 242, 245);
 }
-.bd-botttom{
+
+.bd-botttom {
   border-bottom: 1px solid #ddd;
 }
-.message-list:hover{
+
+.message-list:hover {
   cursor: pointer;
   background-color: rgb(240, 242, 245);
 }
