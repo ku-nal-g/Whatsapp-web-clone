@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
-  imageUrl: string = "https://pps.whatsapp.net/v/t61.24694-24/312284707_664620904993818_1216717238476128389_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdS_8ysssfNOoGLKUZxMHrEGvrfh5yUzoLLDES825KpfEA&oe=638590E3"
+  imageUrl: string = "https://pps.whatsapp.net/v/t61.24694-24/264770121_954913062205176_7170182423584370640_n.jpg?ccb=11-4&oh=01_AdRU8-eJ3psX_2d2t93sdfX5wm_rGGRi1NpDxSJYh3CrLQ&oe=63C78071"
 
   placeHolderText: string = "Search or start a new chat";
 

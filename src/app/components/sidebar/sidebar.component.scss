@@ -1,11 +1,12 @@
 .profile{
   background-color: rgb(240, 242, 245);
   border-right: 1px solid #ddd;
-  height: 10vh;
 }
 .profile img{
   border-radius: 50%;
   width: 45px;
+  height: 45px;
+  object-fit: cover;
   cursor: pointer;
 }
 span.icon{
